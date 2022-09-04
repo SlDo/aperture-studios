@@ -21,5 +21,6 @@ module.exports = {
     appBuild: getPath('dist'),
     appHtml: getPath('./src/index.html'),
   },
-  extensions: fileExtensions
+  extensions: fileExtensions,
+  getPath
 }

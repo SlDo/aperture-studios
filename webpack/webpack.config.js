@@ -1,9 +1,10 @@
-const { join, resolve } = require('path')
+const { join } = require('path')
 
 const { patches, extensions } = require('./lib/patches')
 const { jsRules, cssRules, imageRules, fontRules } = require('./lib/rules')
-const { htmlPlugin, hmrPlugin } = require('./plugins');
+const { htmlPlugin, hmrPlugin, miniExtractCssPlugin, stylelintPlugin, copyPlugin } = require('./plugins');
 const { devServer } = require('./lib/devServer')
+const{ aliases }= require('./lib/aliases')
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
@@ -18,13 +19,17 @@ module.exports = {
   context: join(__dirname, '../'),
   resolve: {
     extensions: extensions.map((ext) => `.${ext}`),
+    alias: aliases
   },
   devtool: isDevelopment && "source-map",
   target: 'web',
   devServer,
   plugins: [
     htmlPlugin,
-    hmrPlugin
+    hmrPlugin,
+    miniExtractCssPlugin,
+    stylelintPlugin,
+    copyPlugin,
   ],
   module: {
     rules: [

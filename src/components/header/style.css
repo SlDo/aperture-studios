@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  min-height: 90px;
+  height: 90px;
+  padding: 0 152px;
+}
+
+.header.scroll {
+  transition: 0.5s background-color;
+  background-color: var(--color-primary-b900);
+}
+
+.headerLogoWrapper {
+  flex: 1;
+}
+
+.headerButton {
+  margin-left: var(--spaceing-g);
+}

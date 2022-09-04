@@ -1,0 +1,10 @@
+.headerNav {
+  color: red;
+}
+
+.headerNavList {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spaceing-g);
+  list-style-type: none;
+}

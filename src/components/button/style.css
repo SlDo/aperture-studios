@@ -1,0 +1,13 @@
+.button {
+  min-height: 42px;
+  background-color: var(--color-w);
+  border-radius: var(--radis-s);
+  white-space: nowrap;
+  font-family: poppins, serif;
+  cursor: pointer;
+  border: none;
+  padding: 0 var(--spaceing-s3);
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: left;
+}

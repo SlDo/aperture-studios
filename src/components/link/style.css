@@ -1,0 +1,12 @@
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link[data-button-size='md'] {
+  font-size: 1rem;
+}
+
+.link[data-button-size='sm'] {
+  font-size: 0.875rem;
+}

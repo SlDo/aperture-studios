@@ -1,0 +1,4 @@
+.imageInfo {
+  display: flex;
+  gap: var(--spaceing-s2);
+}

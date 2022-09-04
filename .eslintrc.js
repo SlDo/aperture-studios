@@ -6,6 +6,12 @@ module.exports = {
   extends: ['standard-with-typescript', 'eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parserOptions: {
+        project: ['./tsconfig.json']
+      }
+    }
   ],
   plugins: [
     '@typescript-eslint',
@@ -14,9 +20,9 @@ module.exports = {
   root: true,
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['tsconfig.json']
+    sourceType: 'module'
   },
   rules: {
+    '@typescript-eslint/restrict-template-expressions': 'off'
   }
 }

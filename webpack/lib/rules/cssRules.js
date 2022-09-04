@@ -1,6 +1,12 @@
 module.exports = [
   {
     test: /\.css$/i,
-    use: ['style-loader', 'css-loader'],
-  },
+    use: {
+      loader: 'css-loader',
+      options: {
+        exportType: "css-style-sheet",
+        import: true
+      }
+    }
+  }
 ]

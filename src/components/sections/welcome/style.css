@@ -1,0 +1,43 @@
+.sectionWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background-image: url('../../../assets/images/main.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionWelcomeDescription {
+  width: 50%;
+  text-align: center;
+}
+
+.sectionWelcomeSubtitle {
+  text-transform: uppercase;
+  color: var(--color-g100);
+}
+
+.sectionWelcomeTitle {
+  font-size: var(--font-lg);
+  color: var(--color-w);
+  font-weight: 400;
+  margin: var(--spaceing-x) 0;
+}
+
+.sectionWelcomeText {
+  color: var(--color-g100);
+  line-height: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.sectionImageInfo {
+  margin-top: var(--spaceing-s2);
+  align-self: flex-end;
+}

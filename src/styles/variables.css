@@ -1,0 +1,14 @@
+:root {
+  --color-primary-b900: #181818;
+  --color-w: #FFF;
+  --color-g100: #C0C0C0;
+  --radis-s: 14px;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 3.4rem;
+  --spaceing-x: 0.25em;
+  --spaceing-s: 0.5em;
+  --spaceing-s2: 1em;
+  --spaceing-s3: 1.25em;
+  --spaceing-g: 2em;
+}
