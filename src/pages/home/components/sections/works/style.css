@@ -1,0 +1,32 @@
+.sectionWork {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 135px;
+  box-sizing: border-box;
+  background-color: var(--color-primary-b);
+}
+
+.sectionWorkHeader {
+  text-align: center;
+  margin-bottom: var(--spaceing-g2);
+}
+
+.sectionWorkTitle {
+  font-size: var(--font-st);
+  color: var(--color-w);
+  font-weight: 400;
+  margin-bottom: var(--spaceing-s);
+}
+
+.sectionWorkSubtitle {
+  color: var(--color-g100);
+  font-size: var(--font-bg);
+  margin: 0;
+}
+
+.sectionWorkImageCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: var(--spaceing-s2);
+}

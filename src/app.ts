@@ -1,3 +1,5 @@
 import './components/header'
 import './components/logo'
-import './components/sections/welcome'
+import './pages/home/components/sections/welcome'
+import './pages/home/components/sections/works'
+import './pages/home/components/sections/mountain'

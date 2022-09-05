@@ -1,0 +1,32 @@
+.sectionMountain {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background-image: url('@assets/images/mountains.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionMountainDescription {
+  max-width: 300px;
+}
+
+.sectionMountainTitle {
+  color: var(--color-w);
+  font-size: var(--font-md);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.sectionMountainSubtitle {
+  color: var(--color-g100);
+  font-size: var(--font-md);
+  word-break: break-all;
+}

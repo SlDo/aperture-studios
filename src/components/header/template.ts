@@ -10,6 +10,6 @@ export const template = createTemplate(`
         <custom-logo></custom-logo>
       </div>
       <custom-header-nav></custom-header-nav>
-      <custom-button class='headerButton' text='Get template'></custom-button>
+      <custom-button class='headerButton'>Get template</custom-button>
     </header>
 `)

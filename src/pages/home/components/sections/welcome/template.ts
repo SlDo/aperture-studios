@@ -12,6 +12,6 @@ export const template = createTemplate(`
         Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
       </p>
     </div>
-    <custom-image-info class='sectionImageInfo'></custom-image-info>
+    <custom-image-info class='sectionImageInfo' excerpt='1/2000s' focus='f/11' iso='100' geo='Iceland'></custom-image-info>
   </section>
 `)

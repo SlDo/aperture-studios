@@ -3,21 +3,20 @@ import styles from './style.css'
 import { addStyles } from '@lib/addStyles'
 import { addTemplate } from '@lib/addTemplate'
 
-class ImageInfo extends HTMLElement {
+class ImageCard extends HTMLElement {
   constructor () {
     super()
 
     const shadowRoot = this.attachShadow({ mode: 'open' })
-    console.log(this.getAttribute('focus'))
+
     addTemplate(shadowRoot, template({
-      excerpt: this.getAttribute('excerpt') ?? '',
-      geo: this.getAttribute('geo') ?? '',
-      iso: this.getAttribute('iso') ?? '',
-      focus: this.getAttribute('focus') ?? ''
+      title: this.getAttribute('title') ?? '',
+      description: this.getAttribute('description') ?? '',
+      backgroundURL: this.getAttribute('backgroundURL') ?? ''
     }))
 
     addStyles(shadowRoot, styles)
   }
 }
 
-customElements.define('custom-image-info', ImageInfo)
+customElements.define('custom-image-card', ImageCard)

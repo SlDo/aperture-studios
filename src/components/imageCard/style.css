@@ -1,0 +1,27 @@
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 30px;
+  height: 600px;
+}
+
+.imageCardDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageCardTitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-w);
+}
+
+.imageCardSubtitle {
+  color: var(--color-g100);
+  line-height: 26px;
+  margin: var(--spaceing-s2) 0;
+}
