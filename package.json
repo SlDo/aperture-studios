@@ -2,11 +2,13 @@
   "name": "Aperture Studios",
   "version": "1.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "https://sldo.github.io",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack/webpack.config.js",
     "start": "webpack serve --config webpack/webpack.config.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ts": "npx tsc"
   },
   "keywords": [],
@@ -20,6 +22,7 @@
     "webpack-dev-server": "3.11.2"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.34.0",
     "@typescript-eslint/parser": "^5.34.0",
     "copy-webpack-plugin": "^11.0.0",
