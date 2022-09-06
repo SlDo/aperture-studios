@@ -1,0 +1,29 @@
+.sectionClients {
+  background-color: var(--color-primary-b);
+  padding: 100px 0;
+}
+
+.sectionClientsHeading {
+  text-align: center;
+}
+
+.sectionClientsTitle {
+  color: var(--color-w);
+  font-weight: 400;
+  font-size: var(--font-st);
+  margin-bottom: var(--spaceing-s);
+  margin-top: 0;
+}
+
+.sectionClientsSubtitle {
+  color: var(--color-g100);
+  font-size: var(--font-bg);
+}
+
+.sectionClientsPartners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 180px;
+}

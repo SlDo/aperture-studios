@@ -1,23 +1,27 @@
-.sectionMountain {
+.workCard {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 600px;
   padding: 40px;
   box-sizing: border-box;
-  background-image: url('@assets/images/mountains.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.sectionMountainDescription {
+.workCardDescription {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: var(--font-text-line-height);
   max-width: 300px;
 }
 
-.sectionMountainTitle {
+.workCardTitle {
   color: var(--color-w);
   font-size: var(--font-md);
   text-transform: uppercase;
@@ -25,7 +29,7 @@
   letter-spacing: 2px;
 }
 
-.sectionMountainSubtitle {
+.workCardSubtitle {
   color: var(--color-g100);
   font-size: var(--font-md);
   word-break: break-all;

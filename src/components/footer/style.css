@@ -1,0 +1,40 @@
+.footer {
+  padding: 100px 135px;
+  background-color: var(--color-primary-b);
+}
+
+.footerMain, .footerNavSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerMain {
+  justify-content: space-between;
+}
+
+.footerNavSection {
+  gap: 50px;
+}
+
+.footerMainInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerMainDescription {
+  color: var(--color-g100);
+  margin-top: var(--spaceing-s2);
+}
+
+.footerLine {
+  height: 2px;
+  width: 100%;
+  background-color: var(--color-w);
+  margin: var(--spaceing-g2) 0;
+}
+
+.footerCopyright {
+  color: var(--color-g100);
+}
+
+

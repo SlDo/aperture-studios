@@ -33,7 +33,7 @@
 
 .sectionWelcomeText {
   color: var(--color-g100);
-  line-height: 26px;
+  line-height: var(--font-text-line-height);
   font-weight: 400;
   margin: 0;
 }

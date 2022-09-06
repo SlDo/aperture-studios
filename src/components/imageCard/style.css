@@ -22,6 +22,6 @@
 
 .imageCardSubtitle {
   color: var(--color-g100);
-  line-height: 26px;
+  line-height: var(--font-text-line-height);
   margin: var(--spaceing-s2) 0;
 }

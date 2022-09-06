@@ -1,0 +1,20 @@
+.sectionContacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-primary-b);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.sectionContactsTitle {
+  color: var(--color-w);
+  font-size: var(--font-st);
+  white-space: pre-line;
+}
+
+.sectionContactsSubtitle {
+  color: var(--color-g100);
+  font-size: var(--font-bg);
+  margin: var(--spaceing-s2);
+}

@@ -1,0 +1,18 @@
+.footerNav {
+  list-style-type: none;
+}
+
+.footerNavTitle {
+  color: var(--color-g100);
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 var(--spaceing-s3);
+}
+
+.footerNavList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spaceing-s2);
+  padding: 0;
+}

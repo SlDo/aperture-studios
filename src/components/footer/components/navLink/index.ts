@@ -3,21 +3,19 @@ import styles from './style.css'
 import { addStyles } from '@lib/addStyles'
 import { addTemplate } from '@lib/addTemplate'
 
-class ImageInfo extends HTMLElement {
+class FooterNavLink extends HTMLElement {
   constructor () {
     super()
 
     const shadowRoot = this.attachShadow({ mode: 'open' })
 
     addTemplate(shadowRoot, template({
-      excerpt: this.getAttribute('excerpt') ?? '',
-      geo: this.getAttribute('geo') ?? '',
-      iso: this.getAttribute('iso') ?? '',
-      focus: this.getAttribute('focus') ?? ''
+      href: this.getAttribute('href') ?? '',
+      text: this.innerHTML
     }))
 
     addStyles(shadowRoot, styles)
   }
 }
 
-customElements.define('custom-image-info', ImageInfo)
+customElements.define('custom-footer-nav-link', FooterNavLink)

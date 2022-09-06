@@ -1,0 +1,46 @@
+.sectionTools {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 50vh;
+  min-height: 550px;
+}
+
+.sectionToolsTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-primary-b);
+  padding: 0 100px;
+}
+
+.sectionToolsSubtitle {
+  color: var(--color-g100);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sectionToolsTitle {
+  color: var(--color-w);
+  font-weight: 400;
+  font-size: var(--font-bg);
+}
+
+.sectionToolsText {
+  color: var(--color-w);
+  line-height: var(--font-text-line-height);
+}
+
+.sectionToolsImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: var(--spaceing-g);
+  background-image: url('@assets/images/cameras.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionToolsButton {
+  margin-top: var(--spaceing-s3);
+}

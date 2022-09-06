@@ -8,6 +8,7 @@
   min-height: 90px;
   height: 90px;
   padding: 0 152px;
+  z-index: 2;
 }
 
 .header.scroll {

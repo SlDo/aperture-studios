@@ -1,9 +1,9 @@
-import { addTemplate } from '@lib/addTemplate'
 import { template } from './template'
 import styles from './style.css'
 import { addStyles } from '@lib/addStyles'
+import { addTemplate } from '@lib/addTemplate'
 
-class MountainSection extends HTMLElement {
+class Footer extends HTMLElement {
   constructor () {
     super()
 
@@ -14,4 +14,4 @@ class MountainSection extends HTMLElement {
   }
 }
 
-customElements.define('custom-section-mountain', MountainSection)
+customElements.define('custom-footer', Footer)
