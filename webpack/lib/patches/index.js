@@ -18,7 +18,7 @@ const getPath = (resolvePath) => {
 module.exports = {
   patches: {
     appEntryPoint: getModule(getPath, './src/index'),
-    appBuild: getPath('dist'),
+    appBuild: getPath('public'),
     appHtml: getPath('./src/index.html'),
   },
   extensions: fileExtensions,
