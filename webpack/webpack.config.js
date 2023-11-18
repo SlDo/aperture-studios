@@ -22,6 +22,7 @@ module.exports = {
     alias: aliases
   },
   devtool: isDevelopment && "source-map",
+  mode: isDevelopment ? 'development' : 'production',
   target: 'web',
   devServer,
   plugins: [

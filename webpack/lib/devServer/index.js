@@ -2,8 +2,9 @@ const { resolve } = require('path');
 
 module.exports = {
   devServer: {
-    contentBase: resolve(process.cwd(), 'dist'),
-    watchContentBase: true,
+    static: {
+      directory: resolve(process.cwd(), 'build'),
+    },
     port: 8080,
     historyApiFallback: true,
     open: true,
